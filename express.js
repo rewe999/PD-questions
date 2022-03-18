@@ -14,6 +14,7 @@ app.use(express.json())
 app.use(cors());
 
 app.get('/', function(req, res) {
+  const hard = [4,25,42]
   let random = Math.floor(Math.random() * dlugosc)
   res.send({
     pytanie: questions[random].pytanie,
