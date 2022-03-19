@@ -3,7 +3,7 @@ const fs = require('fs');
 const cors = require("cors");
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const data = fs.readFileSync('ques.json')
 let questions = JSON.parse(data)    
@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(cors());
 
 app.get('/', function(req, res) {
-  const hard = [4,25,42]
+  const hard = [4,25,26,28,30,42,45,47]
   let random = Math.floor(Math.random() * dlugosc)
   res.send({
     pytanie: questions[random].pytanie,
