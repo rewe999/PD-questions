@@ -36,7 +36,7 @@
     },
     methods: {
         async getApi(){
-            await axios.get('https://pd-app-quest.herokuapp.com/quest').then(res => {
+            await axios.get('https://pd-app-quest.herokuapp.com').then(res => {
                 this.name = res
             })
         },
