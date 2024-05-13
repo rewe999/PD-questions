@@ -1,7 +1,6 @@
 {
   "name": "PDquest",
   "version": "1.0.0",
-  "description": "",
   "main": "express.js",
   "scripts": {
     "start": "node express.js"
@@ -16,5 +15,14 @@
   },
   "engines": {
     "node": "14.17.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewe999/PD-questions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rewe999/PD-questions/issues"
+  },
+  "homepage": "https://github.com/rewe999/PD-questions#readme",
+  "description": ""
 }
