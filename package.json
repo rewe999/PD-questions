@@ -24,5 +24,8 @@
     "url": "https://github.com/rewe999/PD-questions/issues"
   },
   "homepage": "https://github.com/rewe999/PD-questions#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
 }
