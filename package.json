@@ -1,5 +1,5 @@
 {
-  "name": "PDquest",
+  "name": "pdquest",
   "version": "1.0.0",
   "main": "express.js",
   "scripts": {
