@@ -36,7 +36,7 @@
     },
     methods: {
         async getApi(){
-            await axios.get('http://localhost:8000/').then(res => {
+            await axios.get('https://web-production-89598.up.railway.app/').then(res => {
                 this.name = res
                 this.see = false;
             })
